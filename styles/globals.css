@@ -30,12 +30,61 @@ body {
 	font-family: "B Yekan+" !important;
 }
 
-.GRID___1 {
-	background-image: url("/grid__1.png");
+.GRIDBOX {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: var(--background);
 	background-blend-mode: overlay;
 	background-color: rgba(0, 0, 0, 0.5);
+	transition: all 0.5s ease-out;
+	cursor: pointer;
+}
+
+.GRIDBOX:hover {
+	background-blend-mode: normal;
+}
+
+.GRID___1 {
+	background-image: url("/grid__1.png");
+}
+
+.GRID___2 {
+	background-image: url("/grid__2.jpg");
+}
+
+.GRID___3 {
+	background-image: url("/grid__3.jpg");
+}
+
+.GRID___4 {
+	background-image: url("/grid__4.jpg");
+}
+
+.GRID___5 {
+	background-image: url("/grid__5.jpg");
+}
+
+.GRID___6 {
+	background-image: url("/grid__6.jpg");
+}
+
+.GRID___7 {
+	background-image: url("/grid__7.jpg");
+}
+
+.GRID___8 {
+	background-image: url("/grid__8.jpg");
+}
+
+.GRID___9 {
+	background-image: url("/grid__9.jpg");
+}
+
+.GRID___10 {
+	background-image: url("/grid__10.jpg");
+}
+
+.GRID___11 {
+	background-image: url("/grid__11.jpg");
 }
