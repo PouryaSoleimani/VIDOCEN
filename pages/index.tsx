@@ -1,6 +1,7 @@
 import NavbarComponent from "@/components/NavbarComponent";
 import HeaderTitleComponent from "@/components/HeaderTitleComponent";
 import GridBoxesContainerComponent from "@/components/GridBoxesContainerComponent";
+import FooterComponent from "@/components/FooterComponent";
 
 
 
@@ -13,7 +14,7 @@ export default function Home() {
         <HeaderTitleComponent />
         <GridBoxesContainerComponent />
       </div>
-
+      <FooterComponent />
     </section>
   )
 }
