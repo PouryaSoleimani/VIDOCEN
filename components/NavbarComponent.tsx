@@ -1,16 +1,17 @@
-import { MenuIcon } from 'lucide-react'
+import { MenuIcon, SearchIcon } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
 const NavbarComponent = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light w-screen h-full flex items-center justify-between shadow-md px-4 py-1">
-            <div id='LEFT' className='flex pt-4 gap-x-2 pl-2 '>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light w-screen h-full flex items-center justify-between shadow-md px-4 py-5">
+            <div id='LEFT' className='flex gap-x-2 pl-2 items-center'>
                 <MenuIcon />
-                <Image src="/vidocen.png" alt="Logo" width={150} height={250} className="navbar-brand" />
+                <Image src="/Logo.svg" alt="Logo" width={150} height={250} className="navbar-brand" />
             </div>
             <div id="CENTER" className='flex items-center justify-center w-1/3'>
-                <input type="search" name="search" id="NAVBAR___SEARCH" className='border-2 border-red-800 rounded-full px-4 py-1 w-full' placeholder='جستجو کنید' dir='rtl' />
+                <SearchIcon className='translate-x-10 w-8 h-5' />
+                <input type="search" name="search" id="NAVBAR___SEARCH" className='border-2 border-red-800 rounded-full px-4 py-1 w-full relative top-0 left-0' placeholder='جستجو کنید' dir='rtl' />
             </div>
 
             <div id="RIGHT">
@@ -20,8 +21,8 @@ const NavbarComponent = () => {
                         <a className="nav-link bg-sky-600 hover:bg-sky-800 duration-300 text-white font-bold tracking-tight rounded px-4 py-1 text-xl" href="#">ثبت نام</a>
                     </li>
                     <li className="nav-item flex gap-x-2">
-                        <Image src="/flag_iran.png" alt="Logo" width={50} height={250} className="navbar-brand rounded" />
-                        <Image src="/flag_england.png" alt="Logo" width={50} height={250} className="navbar-brand rounded" />
+                        <Image src="/flag_iran.png" alt="Logo" width={50} height={250} className="navbar-brand rounded cursor-pointer" />
+                        <Image src="/flag_england.png" alt="Logo" width={50} height={250} className="navbar-brand rounded cursor-pointer" />
                     </li>
                     <li>
                         <input type="checkbox" className="peer sr-only opacity-0" id="toggle" />
