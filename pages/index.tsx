@@ -1,6 +1,6 @@
 import NavbarComponent from "@/components/NavbarComponent";
-import GridBoxComponent from "@/components/GridBoxComponent";
 import HeaderTitleComponent from "@/components/HeaderTitleComponent";
+import GridBoxesContainerComponent from "@/components/GridBoxesContainerComponent";
 
 
 
@@ -11,7 +11,7 @@ export default function Home() {
       <NavbarComponent />
       <div className="px-4">
         <HeaderTitleComponent />
-        <GridBoxComponent />
+        <GridBoxesContainerComponent />
       </div>
 
     </section>
